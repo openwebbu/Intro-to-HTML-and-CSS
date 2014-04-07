@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Website</title>
+        <style>
+            body {
+                text-align: justify;
+                font-family: "Helvetica Neue";
+                background: url("img/geometry.png") repeat;
+                color: #4B4B4B;
+                font-size: 15px;
+            }
+            #content {
+                max-width: 960px;
+                margin: 0 auto;
+            }
+            h1, h2, h3 {
+                color: rgb(14, 94, 197);
+            }
+            #photo {
+                height: 100px;
+                float: left;
+                margin-right: 45px;
+            }
+            #top {
+                position: relative;
+            }
+            #contact {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            #contact span {
+                display: block;
+                line-height: 30px;
+                text-align: right;
+            }
+            #about {
+                margin-top: 50px;
+                border-top: 1px solid rgb(14, 94, 197);
+            }
+            #columns {
+            position: relative;
+            margin-bottom: 20px;
+            }
+            #experience {
+                width: 60%;
+                display: inline-block;
+                margin-right: 120px;
+            }
+            #skills {
+                display: inline-block;
+                position: absolute;
+            }
+            #projects {
+            padding-top: 10px;
+            border-top: 1px solid rgb(14, 94, 197);;
+            }
+            #projects a img{
+                width: 32.5%;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="top">
+                <img id="photo" src="img/photo.png">
+                <h1 id="name">Ivan Uvarov</h1>
+                <h3 id="university">Boston University</h3>
+
+                <div id="contact">
+                    <span>Website: uvarovis.com</span>
+                    <span>Email: contact@uvarovis.com</span>
+                    <span>Phone: (617)-874-0201</span>
+                </div>
+            </div>
+            
+            <div id="about">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum arcu quis sem sodales, sed volutpat mauris rutrum. Nullam feugiat, lectus et interdum tincidunt, nunc dui posuere odio, eu lobortis metus quam ac orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam imperdiet massa non laoreet congue. Cras porta tempus nunc, sit amet gravida enim sodales in. Donec lacus nibh, viverra ut turpis ac, bibendum scelerisque diam.</p>
+            </div>
+
+            <div id="columns">
+                <div id="experience">
+                    <h2>Work experience</h2>
+                    <h3>Job 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum arcu quis sem sodales, sed volutpat mauris rutrum. </p>
+                    <h3>Job 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum arcu quis sem sodales, sed volutpat mauris rutrum. </p>
+                    <h3>Job 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum arcu quis sem sodales, sed volutpat mauris rutrum. </p>
+                </div>
+                
+                <div id="skills">
+                    <h2>Skills</h2>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Node.js</li>
+                        <li>Wordpress</li>
+                    </ul>
+                    <h3>Design</h3>
+                    <ol>
+                        <li>Photoshop CC</li>
+                        <li>Illustartor CC</li>
+                        <li>Sketch</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div id ="projects">
+                <h2>Past projects</h2>
+                <a href="#"><img src="img/project1.png"></a>
+                <a href="#"><img src="img/project2.png"></a>
+                <a href="#"><img src="img/project3.png"></a>
+            </div>
+        </div>
+    </body>
+</html>
